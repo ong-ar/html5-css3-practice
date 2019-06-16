@@ -67,6 +67,27 @@ div 와 같은 기능, 검색 엔진에서 쉽게 이해할 수 있게 하는 �
 
 http://www.nextree.co.kr/p8468/
 
+- 일반 구조 선택자
+
+  - :first-child
+  - :last-child
+  - :nth-child(수열)
+
+- 형태 구조 선택자
+
+  - :first-of-type
+  - :last-of-type
+  - :nth-of-type(수열)
+
+- 시작 문자 선택자
+
+  - ::first-letter
+  - ::first-line
+
+- 전후 문자 선택자
+  - ::after
+  - ::before
+
 ### 주의 사항
 
 1. 후손 선택자
@@ -83,3 +104,15 @@ h2 {
   color: red;
 }
 ```
+
+2. 자손 선택자
+
+- table 일 경우 tbody 가 자동으로 추가하므로 자손 선택자를 table 에 사용 하지 않아야 함.
+
+## css 속성
+
+### 크기 단위
+
+- %
+- em
+- px
