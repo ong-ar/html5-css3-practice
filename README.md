@@ -51,3 +51,35 @@
 
 - 이미지 태그
 - 멀티미디어 태그
+
+## 시멘틱 구조 태그
+
+- header
+- nav
+- aside
+- section
+- article
+- footer
+
+div 와 같은 기능, 검색 엔진에서 쉽게 이해할 수 있게 하는 데 의미가 있음
+
+## css 선택자
+
+http://www.nextree.co.kr/p8468/
+
+### 주의 사항
+
+1. 후손 선택자
+
+```css
+#header h1,
+h2 {
+  color: red;
+}
+/* header h1 과 일반 h2 가 선택 됨 */
+/* h1, h2 모두 후손 선택자를 선택하려면 아래와 같이 사용 */
+#header h1,
+#header h2 {
+  color: red;
+}
+```
