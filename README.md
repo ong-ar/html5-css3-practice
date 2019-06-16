@@ -113,6 +113,46 @@ h2 {
 
 ### 크기 단위
 
-- %
-- em
-- px
+- % : 백분율 단위
+- em : 배수 단위
+- px : 픽셀
+
+```css
+p:nth-child(1) {
+}
+p:nth-child(2) {
+  font-size: 100%;
+}
+p:nth-child(3) {
+  font-size: 150%;
+}
+p:nth-child(4) {
+  font-size: 200%;
+}
+
+p:nth-child(1) {
+}
+p:nth-child(2) {
+  font-size: 1em;
+}
+p:nth-child(3) {
+  font-size: 1.5em;
+}
+p:nth-child(4) {
+  font-size: 2em;
+}
+
+p:nth-child(1) {
+}
+p:nth-child(2) {
+  font-size: 16px;
+}
+p:nth-child(3) {
+  font-size: 24px;
+}
+p:nth-child(4) {
+  font-size: 32px;
+}
+```
+
+모두 같은 결과
