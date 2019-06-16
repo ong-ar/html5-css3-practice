@@ -179,3 +179,11 @@ p:nth-child(4) {
 | hsla(hue, saturation, lightness, alpha) | HSLA 색상 단위 |
 
 - alpha 값은 투명도를 의미 0.0부터 1.0 사이의 숫자 입력
+
+### box-sizing
+
+https://www.codingfactory.net/10630
+
+### float
+
+https://youtaekjung.github.io/2018/04/21/css/CSS-float-clearfix/
