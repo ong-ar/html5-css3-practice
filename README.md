@@ -156,3 +156,15 @@ p:nth-child(4) {
 ```
 
 모두 같은 결과
+
+### 색상 단위
+
+| 단위 형태                               | 설명           |
+| --------------------------------------- | -------------- |
+| #000000                                 | HEX 코드 단위  |
+| rgb(red, green, blue)                   | RGB 색상 단위  |
+| rgba(red, green, blue, alpha)           | RGBA 색상 단위 |
+| hsl(hue, saturation, lightness)         | HSL 색상 단위  |
+| hsla(hue, saturation, lightness, alpha) | HSLA 색상 단위 |
+
+- alpha 값은 투명도를 의미 0.0부터 1.0 사이의 숫자 입력
