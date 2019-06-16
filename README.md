@@ -31,6 +31,17 @@
 
 ## block 형식의 태그와 inline 형식의 태그
 
+### inline vs inline-block
+
+#### inline
+
+- width, height 속성 적용 안됨
+- margin 좌우만 적용
+
+#### inline-block, block
+
+- width, height, margin 모두 적용 가능
+
 ### block
 
 - div
